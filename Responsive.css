@@ -1,0 +1,81 @@
+/* Responsive styles for tablets and mobile devices */
+
+@media (max-width: 1024px) {
+    .container {
+        flex-direction: column;
+        padding: 0 20px;
+    }
+
+    .width-50,
+    .width-33,
+    .width-66,
+    .width-100 {
+        width: 100% !important;
+    }
+
+    nav {
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 5px 10px;
+    }
+
+    .logo {
+        text-align: center;
+        font-size: 24px;
+    }
+
+    .about-img,
+    .banner-section img,
+    .card img,
+    .project-card img {
+        width: 100% !important;
+        height: auto;
+        border-radius: 10px;
+    }
+
+    .banner-section h1,
+    .banner-section h2,
+    .heading-text {
+        text-align: center;
+    }
+
+    form {
+        padding: 10px;
+    }
+}
+
+@media (max-width: 600px) {
+    nav ul {
+        display: block;
+        padding: 0;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    .footer-sect {
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    .social-icon {
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .project-card {
+        margin-bottom: 20px;
+    }
+
+    .main-panel,
+    .main-section,
+    .contact {
+        padding: 20px 10px;
+    }
+}
